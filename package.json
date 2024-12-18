@@ -29,7 +29,7 @@
     "@types/webpack": "^5.28.5",
     "esbuild": "^0.24.0",
     "parcel": "^2.13.2",
-    "rolldown": "^0.15.0-snapshot-993c4a1-20241205003858",
+    "rolldown": "^0.15.1",
     "rollup": "^4.27.4",
     "rollup-plugin-esbuild": "^6.1.1",
     "terser-webpack-plugin": "^5.3.10",

@@ -1,4 +1,5 @@
 import { defineConfig } from 'rolldown';
+import { minify } from 'rollup-plugin-esbuild';
 
 export default defineConfig( {
 	input: 'src/index.js',
@@ -6,7 +7,14 @@ export default defineConfig( {
 		file: 'rolldown.js',
 		dir: 'dist',
 		format: 'es',
-		minify: true,
+		minify: false,
 		comments: 'none'
-	}
+	},
+	plugins: [
+		minify( {
+			minify: true,
+			legalComments: 'none',
+			target: 'es2022'
+		} )
+	],
 } );
