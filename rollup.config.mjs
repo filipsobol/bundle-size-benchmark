@@ -2,6 +2,7 @@ import { defineConfig } from 'rollup';
 import commonjs from '@rollup/plugin-commonjs';
 import { nodeResolve } from '@rollup/plugin-node-resolve';
 import esbuild from 'rollup-plugin-esbuild';
+import replace from '@rollup/plugin-replace';
 
 export default defineConfig( {
 	input: 'src/index.js',
@@ -10,6 +11,11 @@ export default defineConfig( {
 		format: 'es'
 	},
 	plugins: [
+		replace( {
+			values: {
+				'process.env.NODE_ENV': '"production"',
+			}
+		} ),
 		commonjs( {
 			sourceMap: true,
 			defaultIsModuleExports: true
