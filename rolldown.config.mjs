@@ -10,6 +10,9 @@ export default defineConfig( {
 		minify: false,
 		comments: 'none'
 	},
+	define: {
+		'process.env.NODE_ENV': '"production"',
+	},
 	plugins: [
 		minify( {
 			minify: true,
