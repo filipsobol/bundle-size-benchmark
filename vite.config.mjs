@@ -13,6 +13,9 @@ export default defineConfig( {
         entryFileNames: 'vite.js',
         format: 'es'
       }
+    },
+    modulePreload: {
+      polyfill: false
     }
   },
   esbuild: {
