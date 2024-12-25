@@ -6,6 +6,9 @@ export default {
     filename: 'webpack.js',
     clean: false
   },
+  plugins: [
+    new IgnoreMomentLocale()
+  ],
   optimization: {
     minimize: true,
     minimizer: [
