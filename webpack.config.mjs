@@ -1,4 +1,5 @@
 import Terser from 'terser-webpack-plugin';
+import { IgnoreMomentLocale } from './webpack-plugin-ignore-moment-locales.mjs'; 
 
 export default {
   entry: './src/index.js',
