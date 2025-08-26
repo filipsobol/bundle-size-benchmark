@@ -102,20 +102,20 @@
 // //--------------------------------------- ckeditor5 - optimized build -------------------------------------- //
 // //------------------------------------------ https://ckeditor.com/ ----------------------------------------- //
 
-// import { ClassicEditor } from '@ckeditor/ckeditor5-editor-classic/dist/index.js';
-// import { Essentials } from '@ckeditor/ckeditor5-essentials/dist/index.js';
-// import { Bold, Italic } from '@ckeditor/ckeditor5-basic-styles/dist/index.js';
-// import { Font } from '@ckeditor/ckeditor5-font/dist/index.js';
-// import { Paragraph } from '@ckeditor/ckeditor5-paragraph/dist/index.js';
+// // import { ClassicEditor } from '@ckeditor/ckeditor5-editor-classic/dist/index.js';
+// // import { Essentials } from '@ckeditor/ckeditor5-essentials/dist/index.js';
+// // import { Bold, Italic } from '@ckeditor/ckeditor5-basic-styles/dist/index.js';
+// // import { Font } from '@ckeditor/ckeditor5-font/dist/index.js';
+// // import { Paragraph } from '@ckeditor/ckeditor5-paragraph/dist/index.js';
 
-// ClassicEditor.create( document.querySelector( '#editor' ), {
-//   licenseKey: 'GPL',
-//   plugins: [ Essentials, Bold, Italic, Font, Paragraph ],
-//   toolbar: [
-//     'undo', 'redo', '|', 'bold', 'italic', '|',
-//     'fontSize', 'fontFamily', 'fontColor', 'fontBackgroundColor'
-//   ]
-// } );
+// // ClassicEditor.create( document.querySelector( '#editor' ), {
+// //   licenseKey: 'GPL',
+// //   plugins: [ Essentials, Bold, Italic, Font, Paragraph ],
+// //   toolbar: [
+// //     'undo', 'redo', '|', 'bold', 'italic', '|',
+// //     'fontSize', 'fontFamily', 'fontColor', 'fontBackgroundColor'
+// //   ]
+// // } );
 
 // //-------------------------------------------------- mobx -------------------------------------------------- //
 // //------------------------------------------- https://mobx.js.org/ ----------------------------------------- //

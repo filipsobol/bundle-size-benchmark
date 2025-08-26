@@ -4,11 +4,10 @@ import { minify } from 'rollup-plugin-esbuild';
 export default defineConfig( {
 	input: 'src/index.js',
 	output: {
-		file: 'rolldown.js',
-		dir: 'dist',
+		file: 'dist/rolldown.js',
 		format: 'es',
 		minify: false,
-		comments: 'none'
+		legalComments: 'none'
 	},
 	define: {
 		'process.env.NODE_ENV': '"production"',
